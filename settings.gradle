@@ -1,1 +1,1 @@
-include ':app', ':demo02', ':scopedemo', ':scopedemo2', ':componentdemo', ':inheritdemo', ':mydemo'
+include ':app', ':demo02', ':scopedemo', ':scopedemo2', ':componentdemo', ':inheritdemo', ':mydemo', ':demo03'

@@ -17,7 +17,6 @@ public class FriendActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_friend);
-
         ManComponent manComponent = DaggerManComponent.builder().manModule(new ManModule("俺的车")).build();
 //        DaggerFriendComponent.builder().friendModule(manComponent).build().inject(this);
         DaggerFriendComponent.builder().manComponent(manComponent).build().inject(this);
